@@ -250,7 +250,6 @@ img{
 }
 .about__img{
   justify-self: center;
-  opacity: 0.5;
 }
 
 .about__img:hover{
@@ -293,8 +292,7 @@ img{
 
 .skills__icon:hover{
     -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity: 1;
+    transition: 150ms ease-in-out;
 }
 .skills__names{
   display: flex;
